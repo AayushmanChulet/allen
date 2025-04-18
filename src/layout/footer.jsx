@@ -3,7 +3,7 @@ import { FacebookOutlined, InstagramOutlined, LinkedinOutlined, XOutlined, Youtu
 const Footer = ( ) => {
     return(<div className="flex flex-col bg-[#EDF2FA] justify-center items-center text-gray-600">
         <div className="flex flex-row justify-center items-center w-3/4 p-10 rounded">
-            <img src="src\assets\footer.avif" alt="footer_img"/>
+            <img src="\footer.avif" alt="footer_img"/>
         </div>
         <div className="flex flex-row justify-normal items-start gap-15 font-medium text-gray-600 text-sm">
             <div className="flex flex-col gap-2 justify-start items-start w-3/4">

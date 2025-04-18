@@ -59,21 +59,21 @@ const Index = () => {
             Link_url="#"
             link="View"
             title="JEE"
-            image_url="/src/assets/jee_background.png"
+            image_url="/jee_background.png"
             bg_color="#EDF2FA"
           />
           <Container
             Link_url="#"
             link="View"
             title="NEET"
-            image_url="/src/assets/neet_background.png"
+            image_url="/neet_background.png"
             bg_color="#EDF2FA"
           />
           <Container
             Link_url="#"
             link="View"
             title="Class 6-10"
-            image_url="/src/assets/grade_6_10_background.png"
+            image_url="/grade_6_10_background.png"
             bg_color="#EDF2FA"
           />
         </div>
@@ -87,21 +87,21 @@ const Index = () => {
             Link_url="#"
             link="Predict Now"
             title="JEE Main - Percentile Predictor"
-            image_url="/src/assets/jee_percentile.png"
+            image_url="/jee_percentile.png"
             bg_color="#FFFFFF"
           />
           <Container
             Link_url="#"
             link="Predict Now"
             title="JEE Main - Rank Predictor"
-            image_url="/src/assets/jee_rank.png"
+            image_url="/jee_rank.png"
             bg_color="#FFFFFF"
           />
           <Container
             Link_url="#"
             link="Check Now"
             title="JEE Main - Answer Key"
-            image_url="/src/assets/jee_answerKey.png"
+            image_url="/jee_answerKey.png"
             bg_color="#FFFFFF"
           />
         </div>
@@ -111,31 +111,31 @@ const Index = () => {
         <div className="w-3/4 ">
           <Carousel autoplay={{ dotDuration: true }} autoplaySpeed={5000} className="rounded-3xl overflow-hidden">
           <div>
-              <img src="/src/assets/banner_1.avif" style={contentStyle} />
+              <img src="/banner_1.avif" style={contentStyle} />
             </div>
             <div>
-              <img src="/src/assets/banner_2.avif" style={contentStyle} />
+              <img src="/banner_2.avif" style={contentStyle} />
             </div>
             <div>
-              <img src="/src/assets/banner_3.avif" style={contentStyle} />
+              <img src="/banner_3.avif" style={contentStyle} />
             </div>
             <div>
-              <img src="/src/assets/banner_4.avif" style={contentStyle} />
+              <img src="/banner_4.avif" style={contentStyle} />
             </div>
             <div>
-              <img src="/src/assets/banner_5.avif" style={contentStyle} />
+              <img src="/banner_5.avif" style={contentStyle} />
             </div>
             <div>
-              <img src="/src/assets/banner_6.avif" style={contentStyle} />
+              <img src="/banner_6.avif" style={contentStyle} />
             </div>
             <div>
-              <img src="/src/assets/banner_7.avif" style={contentStyle} />
+              <img src="/banner_7.avif" style={contentStyle} />
             </div>
             <div>
-              <img src="/src/assets/banner_8.avif" style={contentStyle} />
+              <img src="/banner_8.avif" style={contentStyle} />
             </div>
             <div>
-              <img src="/src/assets/banner_9.avif" style={contentStyle} />
+              <img src="/banner_9.avif" style={contentStyle} />
             </div>
           </Carousel>
         </div>
@@ -143,7 +143,7 @@ const Index = () => {
       <div className="flex flex-col justify-center items-center py-10 gap-5 bg-[#EDF2FA]">
         <div className="font-medium text-2xl mt-4">Meet our Champions</div>
         <div className="w-3/4">
-          <img src="/src/assets/Topper.avif" alt="Toppers_images"/>
+          <img src="/Topper.avif" alt="Toppers_images"/>
         </div>
         <div className="flex flex-row gap-10">
           <Button className="">
@@ -155,7 +155,7 @@ const Index = () => {
         </div>
       </div>
       <div className="flex flex-1/2 h-96 justify-center items-center my-10 gap-8">
-        <img src="/src/assets/callback_prop.avif" alt="Callback_Image" className="h-80 mt-7"/>
+        <img src="/callback_prop.avif" alt="Callback_Image" className="h-80 mt-7"/>
         <div className="flex flex-col gap-4 w-175 rounded bg-[#EDF2FA] p-4 shadow-2xl">
           <p className="font-medium text-xl">Request a callback</p>
           <hr />
