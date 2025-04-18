@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router";
 import "../index.css"
-import { ClockCircleTwoTone } from "@ant-design/icons";
+import { ClockCircleTwoTone, PhoneOutlined } from "@ant-design/icons";
 import Button from "../components/button";
 const Navbar = () => {
   return (
@@ -28,14 +28,14 @@ const Navbar = () => {
         <Link to="/courses">Courses</Link>
         <Link to="/test-series">Test Series</Link>
         <Link to="/results">Results</Link>
-        <Link to="/books">Booka</Link>
+        <Link to="/books">Books</Link>
         <Link to="/more">More</Link>
       </div>
       <div className="flex flex-row items-center justify-center gap-4 ">
         <Link to="get-a-callback">
-          Link
+          <PhoneOutlined className="text-2xl mr-2"/>
         </Link>
-        <Link to="get-a-callback">
+        <Link to="Login">
           <Button>Login</Button>
         </Link>
       </div>
