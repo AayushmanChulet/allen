@@ -1,4 +1,4 @@
-Check it out allen-ivory.vercel.app
+Check it out [allen-ivory.vercel.app](https://allen-ivory.vercel.app/)
 
 
 # React + Vite
