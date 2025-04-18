@@ -149,7 +149,7 @@ const Footer = ( ) => {
             </div>
             <hr className="text-black bg-black"/>
             <div>
-                <img src="src/assets/ISO MARK.avif" alt="ISO_IMAGE" className="h-20"/>
+                <img src="/ISO MARK.avif" alt="ISO_IMAGE" className="h-20"/>
             </div>
         </div>
 
